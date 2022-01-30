@@ -10,7 +10,7 @@ async function fetchApi(city) {
                 descript=data['weather'][0]['description'];
 
                 document.getElementById('NameOfCity').innerHTML = `Location : `+ cityName;
-                document.getElementById('Temperature').innerHTML =`Temperature : `+ tempra +` °F `;
+                document.getElementById('Temperature').innerHTML =`Temperature : `+ tempra +` °k `;
                 document.getElementById('Desc').innerHTML =`Description : `+ descript;
                 document.getElementById('gif-img').innerHTML = " ";
 
