@@ -133,10 +133,11 @@ body {
 @media (max-width: 737px) {
   body {
     background-image: url("https://media.istockphoto.com/photos/cloud-storm-sky-with-thunderbolt-over-rural-landscape-picture-id1011777484?b=1&k=20&m=1011777484&s=170667a&w=0&h=XO5EQ_8QvVhj01jSbvu-sZbRIgiibaylLWO-w5VLmoo=");
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 500px 600px;
   }
   .Main {
-    height: 900px;
+    height: 700px;
     width: 100%;
     margin: none;
     backdrop-filter: blur(10px);
@@ -145,11 +146,17 @@ body {
     padding-bottom: 4%;
     margin-top: 4%;
     margin-bottom: 4%;
+    /* background-size: 500px 600px; */
     /* box-shadow: 0 4px 8px 0 azure, 0 4px 20px 0 azure; */
   }
   #text {
     width: 200px;
-    font-size: 10px;
+    font-size: 15px;
+    height: 20px;
+    padding: 1px;
+    text-align: center;
+    margin-bottom: none;
+    padding-top: 5px;
   }
   #CityInput {
     width: 300px;
